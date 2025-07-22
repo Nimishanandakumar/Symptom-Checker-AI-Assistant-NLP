@@ -29,7 +29,7 @@ files_with_content = {
 
     "tests/test_pipeline.py": "# Tests for data pipeline and model\n",
 
-    "README.md": "# ML Classification Project\n\nThis project does classification with end-to-end deployment.",
+    "README.md": "# NLP Project\n\nThis project does classification with end-to-end deployment.",
     "requirements.txt": "# Project-wide Python dependencies\n",
     "run.py": "# Optional: script to run full training pipeline\n"
 }
