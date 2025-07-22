@@ -1,1 +1,3 @@
-# Symptom-Checker-AI-Assistant-NLP
+# ML Classification Project
+
+This project does classification with end-to-end deployment.
