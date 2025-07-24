@@ -1,34 +1,44 @@
 import pandas as pd
 import os
 
-# Load dataset
-df = pd.read_csv("data/preprocessed/cleaned symptom_data.csv")
+# Load raw data
+df = pd.read_csv("data/raw/dataset_uncleaned.csv", encoding='latin1')
 
-# Helper to generate fake codes
-def generate_code(name):
-    return f"C{hash(name) % 10000000:07d}"
+# Fill forward missing Disease and Count values
+df['Disease'] = df['Disease'].fillna(method='ffill')
+df['Count of Disease Occurrence'] = df['Count of Disease Occurrence'].fillna(method='ffill')
 
-# Generate unique disease codes
-df['disease_code'] = df['disease'].apply(generate_code)
-df['symptom_code'] = df['symptom'].apply(generate_code)
+# Split disease into code and name
+df[['Disease_Code', 'Disease_Desc']] = df['Disease'].str.split('_', 1, expand=True)
 
-# Create codes.csv (both diseases and symptoms)
-disease_codes = df[['disease', 'disease_code']].drop_duplicates().rename(
-    columns={'disease': 'name', 'disease_code': 'code'})
+# Split multiple symptoms by ^ and explode into rows
+df['Symptom'] = df['Symptom'].astype(str)
+df = df.assign(Symptom=df['Symptom'].str.split('^')).explode('Symptom')
+
+# Split symptom into code and name
+df[['Symptom_Code', 'Symptom_Desc']] = df['Symptom'].str.split('_', 1, expand=True)
+
+# === Create codes.csv ===
+disease_codes = df[['Disease_Code', 'Disease_Desc']].drop_duplicates().rename(
+    columns={'Disease_Code': 'code', 'Disease_Desc': 'name'})
 disease_codes['type'] = 'disease'
 
-symptom_codes = df[['symptom', 'symptom_code']].drop_duplicates().rename(
-    columns={'symptom': 'name', 'symptom_code': 'code'})
+symptom_codes = df[['Symptom_Code', 'Symptom_Desc']].drop_duplicates().rename(
+    columns={'Symptom_Code': 'code', 'Symptom_Desc': 'name'})
 symptom_codes['type'] = 'symptom'
 
 codes_df = pd.concat([disease_codes, symptom_codes], ignore_index=True)
 
-# Save codes.csv
-os.makedirs("data/structured", exist_ok=True)
-codes_df.to_csv("data/structured/codes.csv", index=False)
-print("codes.csv created.")
+# === Create symptom_disease_map.csv ===
+map_df = df[['Disease_Code', 'Symptom_Code']].drop_duplicates().rename(
+    columns={'Disease_Code': 'disease_code', 'Symptom_Code': 'symptom_code'})
 
-# Save symptom-disease mapping
-map_df = df[['disease_code', 'symptom_code']]
-map_df.to_csv("data/structured/symptom_disease_map.csv", index=False)
-print("symptom_disease_map.csv created.")
+# === Save files ===
+output_dir = "data/structured"
+os.makedirs(output_dir, exist_ok=True)
+
+codes_df.to_csv(f"{output_dir}/codes.csv", index=False)
+map_df.to_csv(f"{output_dir}/symptom_disease_map.csv", index=False)
+
+print("codes.csv and symptom_disease_map.csv saved to:", output_dir)
+
