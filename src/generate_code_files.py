@@ -18,6 +18,10 @@ df = df.assign(Symptom=df['Symptom'].str.split('^')).explode('Symptom')
 # === Split symptom into code and description ===
 df[['Symptom_Code', 'Symptom_Desc']] = df['Symptom'].str.split(pat='_', n=1, expand=True)
 
+# === Remove 'UMLS:' prefix if it exists ===
+df['Disease_Code'] = df['Disease_Code'].str.replace('UMLS:', '', regex=False)
+df['Symptom_Code'] = df['Symptom_Code'].str.replace('UMLS:', '', regex=False)
+
 # === Create codes.csv ===
 disease_codes = df[['Disease_Code', 'Disease_Desc']].drop_duplicates().rename(
     columns={'Disease_Code': 'code', 'Disease_Desc': 'name'})
@@ -41,3 +45,4 @@ codes_df.to_csv(f"{output_dir}/codes.csv", index=False)
 map_df.to_csv(f"{output_dir}/symptom_disease_map.csv", index=False)
 
 print("codes.csv and symptom_disease_map.csv saved to:", output_dir)
+
