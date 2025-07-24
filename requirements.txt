@@ -1,1 +1,6 @@
 # Project-wide Python dependencies
+
+pandas
+numpy
+scikit-learn
+
