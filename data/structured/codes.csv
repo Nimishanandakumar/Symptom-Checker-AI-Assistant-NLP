@@ -1,0 +1,540 @@
+name,code,type
+hypertensive disease,C9266816,disease
+diabetes,C9405472,disease
+depression mental^umls:c0011581_depressive disorder,C8817591,disease
+coronary arteriosclerosis^umls:c0010068_coronary heart disease,C3494874,disease
+pneumonia,C2917286,disease
+failure heart congestive,C3909541,disease
+accident cerebrovascular,C0319427,disease
+asthma,C0163538,disease
+myocardial infarction,C6662360,disease
+hypercholesterolemia,C0225542,disease
+infection,C3159831,disease
+infection urinary tract,C4196353,disease
+anemia,C6482298,disease
+chronic obstructive airway disease,C1698992,disease
+dementia,C4987240,disease
+insufficiency renal,C9835463,disease
+confusion,C1315833,disease
+degenerative polyarthritis,C0579468,disease
+hypothyroidism,C5790635,disease
+anxiety state,C0465275,disease
+malignant neoplasms^umls:c1306459_primary malignant neoplasm,C0216324,disease
+acquired immuno-deficiency syndrome^umls:c0019682_hiv^umls:c0019693_hiv infections,C2933515,disease
+cellulitis,C3141580,disease
+gastroesophageal reflux disease,C0548316,disease
+septicemia^umls:c0243026_systemic infection^umls:c1090821_sepsis (invertebrate),C0827590,disease
+deep vein thrombosis,C6174314,disease
+dehydration,C0863183,disease
+neoplasm,C2052255,disease
+embolism pulmonary,C2026547,disease
+epilepsy,C6366259,disease
+cardiomyopathy,C1904314,disease
+chronic kidney failure,C4011671,disease
+carcinoma,C8356973,disease
+hepatitis c,C0207058,disease
+peripheral vascular disease,C1546202,disease
+psychotic disorder,C6053145,disease
+hyperlipidemia,C8590967,disease
+bipolar disorder,C8379485,disease
+obesity,C8295462,disease
+ischemia,C5506987,disease
+cirrhosis,C7804171,disease
+exanthema,C2434640,disease
+benign prostatic hypertrophy,C1781901,disease
+kidney failure acute,C3837056,disease
+mitral valve insufficiency,C8427826,disease
+arthritis,C8879738,disease
+bronchitis,C0764824,disease
+hemiparesis,C1824083,disease
+osteoporosis,C7961181,disease
+transient ischemic attack,C3509313,disease
+adenocarcinoma,C7242101,disease
+paranoia,C3075292,disease
+pancreatitis,C2922448,disease
+incontinence,C9614868,disease
+paroxysmal dyspnea,C9129835,disease
+hernia,C5076371,disease
+malignant neoplasm of prostate^umls:c0600139_carcinoma prostate,C2885540,disease
+edema pulmonary,C5735169,disease
+lymphatic diseases,C3155627,disease
+stenosis aortic valve,C0711573,disease
+malignant neoplasm of breast^umls:c0678222_carcinoma breast,C3917292,disease
+schizophrenia,C4923602,disease
+diverticulitis,C1791344,disease
+overload fluid,C3348316,disease
+ulcer peptic,C7056154,disease
+osteomyelitis,C9076377,disease
+gastritis,C0858737,disease
+bacteremia,C3968795,disease
+failure kidney,C0140772,disease
+sickle cell anemia,C0415551,disease
+failure heart,C1422283,disease
+upper respiratory infection,C9131715,disease
+hepatitis,C4844751,disease
+hypertension pulmonary,C1091232,disease
+deglutition disorder,C7317237,disease
+gout,C4333741,disease
+thrombocytopaenia,C5264770,disease
+hypoglycemia,C4414195,disease
+pneumonia aspiration,C7186819,disease
+colitis,C4851666,disease
+diverticulosis,C6298044,disease
+suicide attempt,C6630553,disease
+pneumocystis carinii pneumonia,C3743286,disease
+hepatitis b,C3303967,disease
+parkinson disease,C0317266,disease
+lymphoma,C8342643,disease
+hyperglycemia,C5783768,disease
+encephalopathy,C0603535,disease
+tricuspid valve insufficiency,C8511329,disease
+alzheimer's disease,C8767860,disease
+candidiasis^umls:c0006849_oralcandidiasis,C8729193,disease
+neuropathy,C2883206,disease
+kidney disease,C1911404,disease
+fibroid tumor,C0760177,disease
+glaucoma,C2480026,disease
+neoplasm metastasis,C4751151,disease
+malignant tumor of colon^umls:c0699790_carcinoma colon,C8175251,disease
+ketoacidosis diabetic,C5240269,disease
+tonic-clonic epilepsy^umls:c0494475_tonic-clonic seizures,C2198307,disease
+malignant neoplasms,C5958895,disease
+respiratory failure,C5147154,disease
+melanoma,C3596652,disease
+gastroenteritis,C3229500,disease
+malignant neoplasm of lung^umls:c0684249_carcinoma of lung,C6634972,disease
+manic disorder,C9926283,disease
+personality disorder,C8317694,disease
+primary carcinoma of the liver cells,C0641154,disease
+emphysema pulmonary,C4722973,disease
+hemorrhoids,C8147453,disease
+spasm bronchial,C9732719,disease
+aphasia,C2764496,disease
+obesity morbid,C2904411,disease
+pyelonephritis,C2126577,disease
+endocarditis,C7293470,disease
+effusion pericardial^umls:c1253937_pericardial effusion body substance,C0283421,disease
+chronic alcoholic intoxication,C1855416,disease
+pneumothorax,C4912654,disease
+delirium,C6907773,disease
+neutropenia,C3689027,disease
+hyperbilirubinemia,C0704836,disease
+influenza,C0585514,disease
+dependence,C9682011,disease
+thrombus,C8408114,disease
+cholecystitis,C3325663,disease
+hernia hiatal,C7464554,disease
+migraine disorders,C5412831,disease
+pancytopenia,C2812475,disease
+cholelithiasis^umls:c0242216_biliary calculus,C5551975,disease
+tachycardia sinus,C9446929,disease
+ileus,C7008243,disease
+adhesion,C5952690,disease
+delusion,C2840566,disease
+affect labile,C9739708,disease
+decubitus ulcer,C1630125,disease
+pain chest,C4784363,symptom
+shortness of breath,C7546873,symptom
+dizziness,C4107379,symptom
+asthenia,C7060424,symptom
+fall,C9920656,symptom
+syncope,C6980616,symptom
+vertigo,C1569163,symptom
+sweat,C9319393,symptom
+sweating increased,C3254753,symptom
+palpitation,C6350127,symptom
+nausea,C1379053,symptom
+angina pectoris,C1962216,symptom
+pressure chest,C3856301,symptom
+polyuria,C1848836,symptom
+polydypsia,C5400679,symptom
+orthopnea,C2590788,symptom
+rale,C4687258,symptom
+unresponsiveness,C9804577,symptom
+mental status changes,C1133787,symptom
+vomiting,C8713948,symptom
+labored breathing,C3788346,symptom
+feeling suicidal,C7469525,symptom
+suicidal,C8559952,symptom
+hallucinations auditory,C1635313,symptom
+feeling hopeless,C5338808,symptom
+weepiness,C5685183,symptom
+sleeplessness,C7282458,symptom
+motor retardation,C7074141,symptom
+irritable mood,C8061495,symptom
+blackout,C2004737,symptom
+mood depressed,C3842285,symptom
+hallucinations visual,C8623864,symptom
+worry,C9265191,symptom
+agitation,C6942483,symptom
+tremor,C5828821,symptom
+intoxication,C4220565,symptom
+verbal auditory hallucinations,C3603344,symptom
+energy increased,C7489738,symptom
+difficulty,C3657747,symptom
+nightmare,C3732443,symptom
+unable to concentrate,C5778944,symptom
+homelessness,C2139744,symptom
+hypokinesia,C2723831,symptom
+dyspnea on exertion,C4923509,symptom
+chest tightness,C4380948,symptom
+cough,C8669613,symptom
+fever,C2491674,symptom
+decreased translucency,C1777196,symptom
+productive cough,C7615413,symptom
+pleuritic pain,C6247382,symptom
+yellow sputum,C6651562,symptom
+breath sounds decreased,C9362377,symptom
+chill,C2704704,symptom
+rhonchus,C3344210,symptom
+green sputum,C2109782,symptom
+non-productive cough,C2559859,symptom
+wheezing,C9774996,symptom
+haemoptysis,C2531163,symptom
+distress respiratory,C7645280,symptom
+tachypnea,C8613437,symptom
+malaise,C6847953,symptom
+night sweat,C3140146,symptom
+jugular venous distention,C3589743,symptom
+dyspnea,C9654959,symptom
+dysarthria,C5095438,symptom
+speech slurred,C2512857,symptom
+facial paresis,C2993820,symptom
+hemiplegia,C1228595,symptom
+seizure,C7221106,symptom
+numbness,C0090052,symptom
+symptom aggravating factors,C1267711,symptom
+st segment elevation,C7177706,symptom
+st segment depression,C6659681,symptom
+t wave inverted,C3691350,symptom
+presence of q wave,C2932483,symptom
+chest discomfort,C7802527,symptom
+bradycardia,C0973559,symptom
+pain,C6038950,symptom
+nonsmoker,C6799407,symptom
+erythema,C2323656,symptom
+hepatosplenomegaly,C1749101,symptom
+pruritus,C3438913,symptom
+diarrhea,C6865502,symptom
+abscess bacterial,C5500142,symptom
+swelling,C2861758,symptom
+apyrexial,C3329004,symptom
+dysuria,C4225995,symptom
+hematuria,C1075890,symptom
+renal angle tenderness,C4808799,symptom
+lethargy,C1371508,symptom
+hyponatremia,C6271563,symptom
+hemodynamically stable,C0519043,symptom
+difficulty passing urine,C1374989,symptom
+consciousness clear,C5879051,symptom
+guaiac positive,C3979756,symptom
+monoclonal,C7983557,symptom
+ecchymosis,C2798532,symptom
+tumor cell invasion,C3249074,symptom
+haemorrhage,C1753431,symptom
+pallor,C9514108,symptom
+fatigue,C2158523,symptom
+heme positive,C7037214,symptom
+pain back,C5047340,symptom
+orthostasis,C6674610,symptom
+arthralgia,C1766501,symptom
+transaminitis,C8359060,symptom
+sputum purulent,C6579243,symptom
+hypoxemia,C7166822,symptom
+hypercapnia,C6051322,symptom
+patient non compliance,C1363176,symptom
+unconscious state,C1932972,symptom
+bedridden,C1604770,symptom
+abdominal tenderness,C1611301,symptom
+unsteady gait,C1344077,symptom
+hyperkalemia,C3685748,symptom
+urgency of micturition,C1837560,symptom
+ascites,C3334852,symptom
+hypotension,C6007710,symptom
+enuresis,C3117405,symptom
+asterixis,C8641390,symptom
+muscle twitch,C1708421,symptom
+sleepy,C0295482,symptom
+headache,C2157119,symptom
+lightheadedness,C1627847,symptom
+food intolerance,C6897766,symptom
+numbness of hand,C5715680,symptom
+general discomfort,C3909520,symptom
+drowsiness,C7563582,symptom
+stiffness,C6877733,symptom
+prostatism,C6837344,symptom
+weight gain,C9976377,symptom
+tired,C5151785,symptom
+mass of body structure,C6065426,symptom
+has religious belief,C4974863,symptom
+nervousness,C6254307,symptom
+formication,C2672029,symptom
+hot flush,C8138202,symptom
+lesion,C5223732,symptom
+cushingoid facies,C1698037,symptom
+cushingoid habitus,C5358944,symptom
+emphysematous change,C9297393,symptom
+decreased body weight,C3514994,symptom
+hoarseness,C9545667,symptom
+thicken,C0279141,symptom
+spontaneous rupture of membranes,C5633501,symptom
+,C7999323,symptom
+muscle hypotonia,C2607126,symptom
+hypotonic,C3813187,symptom
+redness,C1130878,symptom
+hypesthesia,C4483684,symptom
+hyperacusis,C5671998,symptom
+scratch marks,C3765808,symptom
+sore to touch,C0837444,symptom
+burning sensation,C5613626,symptom
+satiety early,C8764053,symptom
+throbbing sensation quality,C0678490,symptom
+sensory discomfort,C3315990,symptom
+constipation,C0857871,symptom
+pain abdominal,C5249553,symptom
+heartburn,C3256057,symptom
+breech presentation,C3064064,symptom
+cyanosis,C2406531,symptom
+pain in lower limb,C2375608,symptom
+cardiomegaly,C6217426,symptom
+clonus,C1038647,symptom
+unwell,C0861040,symptom
+anorexia,C8642940,symptom
+history of - blackout,C0011975,symptom
+anosmia,C5721757,symptom
+metastatic lesion,C6513503,symptom
+hemianopsia homonymous,C8877691,symptom
+hematocrit decreased,C0372773,symptom
+neck stiffness,C5685791,symptom
+cicatrisation,C0884371,symptom
+hypometabolism,C7393480,symptom
+aura,C3202191,symptom
+myoclonus,C8203294,symptom
+gurgle,C5620056,symptom
+wheelchair bound,C9729397,symptom
+left atrial hypertrophy,C3433714,symptom
+oliguria,C9762623,symptom
+catatonia,C5654984,symptom
+unhappy,C6088128,symptom
+paresthesia,C9424596,symptom
+gravida 0,C9562275,symptom
+lung nodule,C6140637,symptom
+distended abdomen,C8902888,symptom
+ache,C2751704,symptom
+macerated skin,C9391292,symptom
+heavy feeling,C6239738,symptom
+rest pain,C7481905,symptom
+sinus rhythm,C5229421,symptom
+withdraw,C7305813,symptom
+behavior hyperactive,C7911051,symptom
+terrify,C6289042,symptom
+photopsia,C4626795,symptom
+giddy mood,C4873223,symptom
+disturbed family,C8020643,symptom
+hypersomnia,C1452717,symptom
+hyperhidrosis disorder,C9943102,symptom
+mydriasis,C6292805,symptom
+extrapyramidal sign,C9563454,symptom
+loose associations,C4471968,symptom
+exhaustion,C7870748,symptom
+snore,C6566964,symptom
+r wave feature,C8750005,symptom
+overweight,C6196771,symptom
+systolic murmur,C9128658,symptom
+asymptomatic,C1318305,symptom
+splenomegaly,C1267589,symptom
+bleeding of vagina,C4516544,symptom
+macule,C9322081,symptom
+photophobia,C6512315,symptom
+painful swallowing,C4631799,symptom
+cachexia,C8951772,symptom
+hypocalcemia result,C2181978,symptom
+"hypothermia, natural",C5894701,symptom
+atypia,C0456203,symptom
+general unsteadiness,C2266495,symptom
+throat sore,C3363299,symptom
+snuffle,C9097723,symptom
+hacking cough,C4483698,symptom
+stridor,C4744042,symptom
+paresis,C1521618,symptom
+aphagia,C7883155,symptom
+focal seizures,C0625768,symptom
+abnormal sensation,C8722152,symptom
+stupor,C3141104,symptom
+fremitus,C4726318,symptom
+stahli's line,C0637427,symptom
+stinging sensation,C8631542,symptom
+paralyse,C3057533,symptom
+hirsutism,C5747093,symptom
+sniffle,C8201332,symptom
+bradykinesia,C9040894,symptom
+out of breath,C2780073,symptom
+urge incontinence,C0486609,symptom
+vision blurred,C6723332,symptom
+room spinning,C7108461,symptom
+rambling speech,C6045525,symptom
+clumsiness,C6750752,symptom
+decreased stool caliber,C3635323,symptom
+hematochezia,C2690944,symptom
+egophony,C0640878,symptom
+scar tissue,C8361459,symptom
+neologism,C1758697,symptom
+decompensation,C5229490,symptom
+stool color yellow,C8605831,symptom
+rigor - temperature-associated observation,C6076817,symptom
+paraparesis,C6080938,symptom
+moody,C2525020,symptom
+fear of falling,C8566541,symptom
+spasm,C7395684,symptom
+hyperventilation,C2553227,symptom
+excruciating pain,C5962649,symptom
+gag,C5500198,symptom
+posturing,C8213582,symptom
+pulse absent,C5524036,symptom
+dysesthesia,C6651045,symptom
+polymyalgia,C9135535,symptom
+passed stones,C9974499,symptom
+qt interval prolonged,C5008579,symptom
+ataxia,C5686926,symptom
+heberden's node,C9075495,symptom
+hepatomegaly,C6555563,symptom
+sciatica,C0866585,symptom
+frothy sputum,C6347587,symptom
+mass in breast,C2583541,symptom
+retropulsion,C1685591,symptom
+estrogen use,C7329220,symptom
+hypersomnolence,C5107272,symptom
+underweight,C6606532,symptom
+dullness,C0751137,symptom
+red blotches,C3629936,symptom
+colic abdominal,C8604069,symptom
+hypokalemia,C1786044,symptom
+hunger,C6782847,symptom
+prostate tender,C2071940,symptom
+pain foot,C5373352,symptom
+urinary hesitation,C2601436,symptom
+disequilibrium,C6225549,symptom
+flushing,C5350749,symptom
+indifferent mood,C7286354,symptom
+urinoma,C2098482,symptom
+hypoalbuminemia,C4074638,symptom
+pustule,C3337091,symptom
+slowing of urinary stream,C2518358,symptom
+extreme exhaustion,C6126521,symptom
+no status change,C8429320,symptom
+breakthrough pain,C0698412,symptom
+pansystolic murmur,C4140037,symptom
+systolic ejection murmur,C8006330,symptom
+stuffy nose,C4155305,symptom
+barking cough,C1652384,symptom
+rapid shallow breathing,C8643925,symptom
+noisy respiration,C7795649,symptom
+nasal discharge present,C8025607,symptom
+frail,C5016613,symptom
+cystic lesion,C3736122,symptom
+projectile vomiting,C0874806,symptom
+heavy legs,C9935760,symptom
+titubation,C1719151,symptom
+dysdiadochokinesia,C6092540,symptom
+achalasia,C6188071,symptom
+side pain,C6416581,symptom
+monocytosis,C4434265,symptom
+posterior rhinorrhea,C3016014,symptom
+incoherent,C0778408,symptom
+lameness,C5903346,symptom
+claudication,C7649716,symptom
+clammy skin,C5097559,symptom
+mediastinal shift,C4298035,symptom
+nausea and vomiting,C3490294,symptom
+awakening early,C3521485,symptom
+tenesmus,C1289853,symptom
+fecaluria,C1352960,symptom
+pneumatouria,C5724046,symptom
+todd paralysis,C1668434,symptom
+alcoholic withdrawal symptoms,C8747788,symptom
+myalgia,C5130092,symptom
+dyspareunia,C7899710,symptom
+poor dentition,C4803036,symptom
+floppy,C2694288,symptom
+inappropriate affect,C7247530,symptom
+poor feeding,C7924901,symptom
+moan,C2795441,symptom
+welt,C0887923,symptom
+tinnitus,C8176842,symptom
+hydropneumothorax,C9917467,symptom
+superimposition,C3947034,symptom
+feeling strange,C9288855,symptom
+uncoordination,C7171226,symptom
+absences finding,C1424585,symptom
+tonic seizures,C5674498,symptom
+debilitation,C4950938,symptom
+impaired cognition,C6895521,symptom
+drool,C2671453,symptom
+pin-point pupils,C8117464,symptom
+tremor resting,C7909599,symptom
+groggy,C5451221,symptom
+adverse reaction,C2863766,symptom
+adverse effect,C0669439,symptom
+abdominal bloating,C9755809,symptom
+fatigability,C0469447,symptom
+para 2,C1630118,symptom
+abortion,C8093466,symptom
+intermenstrual heavy bleeding,C2630248,symptom
+previous pregnancies 2,C8115246,symptom
+primigravida,C3054882,symptom
+abnormally hard consistency,C1134476,symptom
+proteinemia,C4594700,symptom
+pain neck,C2165135,symptom
+dizzy spells,C0609930,symptom
+shooting pain,C3212944,symptom
+hyperemesis,C0241007,symptom
+milky,C8178918,symptom
+regurgitates after swallowing,C2908499,symptom
+lip smacking,C7835214,symptom
+phonophobia,C5074943,symptom
+rolling of eyes,C5280134,symptom
+ambidexterity,C8598643,symptom
+pulsus paradoxus,C5628185,symptom
+gravida 10,C9098665,symptom
+bruit,C7758231,symptom
+breath-holding spell,C4612040,symptom
+scleral icterus,C0213144,symptom
+retch,C5016876,symptom
+blanch,C1621513,symptom
+elation,C4711433,symptom
+verbally abusive behavior,C3068490,symptom
+transsexual,C5593339,symptom
+behavior showing increased motor activity,C6836740,symptom
+coordination abnormal,C1866105,symptom
+choke,C4532363,symptom
+bowel sounds decreased,C2319758,symptom
+no known drug allergies,C6600923,symptom
+low back pain,C2422970,symptom
+charleyhorse,C2738034,symptom
+sedentary,C0645260,symptom
+feels hot/feverish,C4363529,symptom
+flare,C1690880,symptom
+pericardial friction rub,C6376295,symptom
+hoard,C7808428,symptom
+panic,C0501078,symptom
+cardiovascular finding,C3912177,symptom
+cardiovascular event,C6567926,symptom
+soft tissue swelling,C9902903,symptom
+rhd positive,C4719478,symptom
+para 1,C8556575,symptom
+nasal flaring,C8038385,symptom
+sneeze,C3048319,symptom
+hypertonicity,C6845962,symptom
+murphy's sign,C0264610,symptom
+flatulence,C0604518,symptom
+gasping for breath,C3236530,symptom
+feces in rectum,C4108082,symptom
+prodrome,C0232800,symptom
+hypoproteinemia,C9187448,symptom
+alcohol binge episode,C2226942,symptom
+abdomen acute,C6568823,symptom
+air fluid level,C2638814,symptom
+catching breath,C3149749,symptom
+large-for-dates fetus,C8557432,symptom
+immobile,C1653292,symptom
+homicidal thoughts,C8876271,symptom
