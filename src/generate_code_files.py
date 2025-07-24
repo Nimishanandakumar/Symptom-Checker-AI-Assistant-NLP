@@ -4,19 +4,19 @@ import os
 # Load raw data
 df = pd.read_csv("data/raw/dataset_uncleaned.csv", encoding='latin1')
 
-# Fill forward missing Disease and Count values
-df['Disease'] = df['Disease'].fillna(method='ffill')
-df['Count of Disease Occurrence'] = df['Count of Disease Occurrence'].fillna(method='ffill')
+# === Clean missing data ===
+df['Disease'] = df['Disease'].ffill()
+df['Count of Disease Occurrence'] = df['Count of Disease Occurrence'].ffill()
 
-# Split disease into code and name
-df[['Disease_Code', 'Disease_Desc']] = df['Disease'].str.split('_', 1, expand=True)
+# === Split disease into code and description ===
+df[['Disease_Code', 'Disease_Desc']] = df['Disease'].str.split(pat='_', n=1, expand=True)
 
-# Split multiple symptoms by ^ and explode into rows
-df['Symptom'] = df['Symptom'].astype(str)
+# === Split symptoms with multiple entries (^ symbol) ===
+df['Symptom'] = df['Symptom'].astype(str)  # Ensure string type
 df = df.assign(Symptom=df['Symptom'].str.split('^')).explode('Symptom')
 
-# Split symptom into code and name
-df[['Symptom_Code', 'Symptom_Desc']] = df['Symptom'].str.split('_', 1, expand=True)
+# === Split symptom into code and description ===
+df[['Symptom_Code', 'Symptom_Desc']] = df['Symptom'].str.split(pat='_', n=1, expand=True)
 
 # === Create codes.csv ===
 disease_codes = df[['Disease_Code', 'Disease_Desc']].drop_duplicates().rename(
@@ -29,11 +29,11 @@ symptom_codes['type'] = 'symptom'
 
 codes_df = pd.concat([disease_codes, symptom_codes], ignore_index=True)
 
-# === Create symptom_disease_map.csv ===
+# === Create mapping file ===
 map_df = df[['Disease_Code', 'Symptom_Code']].drop_duplicates().rename(
     columns={'Disease_Code': 'disease_code', 'Symptom_Code': 'symptom_code'})
 
-# === Save files ===
+# === Save output files ===
 output_dir = "data/structured"
 os.makedirs(output_dir, exist_ok=True)
 
@@ -41,4 +41,3 @@ codes_df.to_csv(f"{output_dir}/codes.csv", index=False)
 map_df.to_csv(f"{output_dir}/symptom_disease_map.csv", index=False)
 
 print("codes.csv and symptom_disease_map.csv saved to:", output_dir)
-
