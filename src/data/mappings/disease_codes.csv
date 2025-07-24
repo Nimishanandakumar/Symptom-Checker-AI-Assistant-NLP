@@ -1,0 +1,135 @@
+Disease_Code,Disease_Name
+UMLS:C0020538,hypertensive disease
+UMLS:C0011847,diabetes
+UMLS:C0011570,depression mental^UMLS:C0011581_depressive disorder
+UMLS:C0010054,coronary arteriosclerosis^UMLS:C0010068_coronary heart disease
+UMLS:C0032285,pneumonia
+UMLS:C0018802,failure heart congestive
+UMLS:C0038454,accident cerebrovascular
+UMLS:C0004096,asthma
+UMLS:C0027051,myocardial infarction
+UMLS:C0020443,hypercholesterolemia
+UMLS:C0021311,infection
+UMLS:C0042029,infection urinary tract
+UMLS:C0002871,anemia
+UMLS:C0024117,chronic obstructive airway disease
+UMLS:C0497327,dementia
+UMLS:C1565489,insufficiency renal
+UMLS:C0009676,confusion
+UMLS:C0029408,degenerative polyarthritis
+UMLS:C0020676,hypothyroidism
+UMLS:C0700613,anxiety state
+UMLS:C0006826,malignant neoplasms^UMLS:C1306459_primary malignant neoplasm
+UMLS:C0001175,acquired immuno-deficiency syndrome^UMLS:C0019682_HIV^UMLS:C0019693_hiv infections
+UMLS:C0007642,cellulitis
+UMLS:C0017168,gastroesophageal reflux disease
+UMLS:C0036690,septicemia^UMLS:C0243026_systemic infection^UMLS:C1090821_sepsis (invertebrate)
+UMLS:C0149871,deep vein thrombosis
+UMLS:C0011175,dehydration
+UMLS:C0027651,neoplasm
+UMLS:C0034065,embolism pulmonary
+UMLS:C0014544,epilepsy
+UMLS:C0878544,cardiomyopathy
+UMLS:C0022661,chronic kidney failure
+UMLS:C0007097,carcinoma
+UMLS:C0019196,hepatitis C
+UMLS:C0085096,peripheral vascular disease
+UMLS:C0033975,psychotic disorder
+UMLS:C0020473,hyperlipidemia
+UMLS:C0005586,bipolar disorder
+UMLS:C0028754,obesity
+UMLS:C0022116,ischemia
+UMLS:C1623038,cirrhosis
+UMLS:C0015230,exanthema
+UMLS:C0005001,benign prostatic hypertrophy
+UMLS:C0022660,kidney failure acute
+UMLS:C0026266,mitral valve insufficiency
+UMLS:C0003864,arthritis
+UMLS:C0006277,bronchitis
+UMLS:C0018989,hemiparesis
+UMLS:C0029456,osteoporosis
+UMLS:C0007787,transient ischemic attack
+UMLS:C0001418,adenocarcinoma
+UMLS:C1456784,paranoia
+UMLS:C0030305,pancreatitis
+UMLS:C0021167,incontinence
+UMLS:C0013405,paroxysmal dyspnea
+UMLS:C0019270,hernia
+UMLS:C0376358,malignant neoplasm of prostate^UMLS:C0600139_carcinoma prostate
+UMLS:C0034063,edema pulmonary
+UMLS:C0024228,lymphatic diseases
+UMLS:C0003507,stenosis aortic valve
+UMLS:C0006142,malignant neoplasm of breast^UMLS:C0678222_carcinoma breast
+UMLS:C0036341,schizophrenia
+UMLS:C0012813,diverticulitis
+UMLS:C0546817,overload fluid
+UMLS:C0030920,ulcer peptic
+UMLS:C0029443,osteomyelitis
+UMLS:C0017152,gastritis
+UMLS:C0004610,bacteremia
+UMLS:C0035078,failure kidney
+UMLS:C0002895,sickle cell anemia
+UMLS:C0018801,failure heart
+UMLS:C0041912,upper respiratory infection
+UMLS:C0019158,hepatitis
+UMLS:C0020542,hypertension pulmonary
+UMLS:C0011168,deglutition disorder
+UMLS:C0018099,gout
+UMLS:C0040034,thrombocytopaenia
+UMLS:C0020615,hypoglycemia
+UMLS:C0032290,pneumonia aspiration
+UMLS:C0009319,colitis
+UMLS:C1510475,diverticulosis
+UMLS:C0038663,suicide attempt
+UMLS:C0032305,Pneumocystis carinii pneumonia
+UMLS:C0019163,hepatitis B
+UMLS:C0030567,parkinson disease
+UMLS:C0024299,lymphoma
+UMLS:C0020456,hyperglycemia
+UMLS:C0085584,encephalopathy
+UMLS:C0040961,tricuspid valve insufficiency
+UMLS:C0002395,Alzheimer's disease
+UMLS:C0006840,candidiasis^UMLS:C0006849_oralcandidiasis
+UMLS:C0442874,neuropathy
+UMLS:C0022658,kidney disease
+UMLS:C0023267,fibroid tumor
+UMLS:C0017601,glaucoma
+UMLS:C0027627,neoplasm metastasis
+UMLS:C0007102,malignant tumor of colon^UMLS:C0699790_carcinoma colon
+UMLS:C0011880,ketoacidosis diabetic
+UMLS:C0014549,tonic-clonic epilepsy^UMLS:C0494475_tonic-clonic seizures
+UMLS:C0006826,malignant neoplasms
+UMLS:C1145670,respiratory failure
+UMLS:C0025202,melanoma
+UMLS:C0017160,gastroenteritis
+UMLS:C0242379,malignant neoplasm of lung^UMLS:C0684249_carcinoma of lung
+UMLS:C0024713,manic disorder
+UMLS:C0031212,personality disorder
+UMLS:C0019204,primary carcinoma of the liver cells
+UMLS:C0034067,emphysema pulmonary
+UMLS:C0019112,hemorrhoids
+UMLS:C0006266,spasm bronchial
+UMLS:C0003537,aphasia
+UMLS:C0028756,obesity morbid
+UMLS:C0034186,pyelonephritis
+UMLS:C0014118,endocarditis
+UMLS:C0031039,effusion pericardial^UMLS:C1253937_pericardial effusion body substance
+UMLS:C0001973,chronic alcoholic intoxication
+UMLS:C0032326,pneumothorax
+UMLS:C0011206,delirium
+UMLS:C0027947,neutropenia
+UMLS:C0020433,hyperbilirubinemia
+UMLS:C0021400,influenza
+UMLS:C0439857,dependence
+UMLS:C0087086,thrombus
+UMLS:C0008325,cholecystitis
+UMLS:C0019291,hernia hiatal
+UMLS:C0149931,migraine disorders
+UMLS:C0030312,pancytopenia
+UMLS:C0008350,cholelithiasis^UMLS:C0242216_biliary calculus
+UMLS:C0039239,tachycardia sinus
+UMLS:C1258215,ileus
+UMLS:C0001511,adhesion
+UMLS:C0011253,delusion
+UMLS:C0233472,affect labile
+UMLS:C0011127,decubitus ulcer
